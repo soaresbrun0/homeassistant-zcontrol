@@ -1,0 +1,13 @@
+{
+  "domain": "zcontrol",
+  "name": "ZControl®",
+  "codeowners": [
+    "@soaresbrun0"
+  ],
+  "documentation": "https://github.com/soaresbrun0/homeassistant-zcontrol",
+  "integration_type": "device",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": ["pyzctrl==0.2.8"],
+  "version": "0.1.0"
+}

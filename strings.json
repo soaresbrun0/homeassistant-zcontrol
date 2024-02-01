@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "model": "Device Model",
+          "url": "[%key:common::config_flow::data::url%]",
+          "timeout": "Timeout",
+          "scan_interval": "Scan Interval"
+        }
+      }
+    },
+    "error": {
+      "timeout_connect": "[%key:common::config_flow::error::timeout_connect%]",
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
