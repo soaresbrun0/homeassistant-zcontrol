@@ -8,6 +8,6 @@
   "integration_type": "device",
   "config_flow": true,
   "iot_class": "local_polling",
-  "requirements": ["pyzctrl==0.2.8"],
+  "requirements": ["pyzctrl==0.3.0"],
   "version": "0.1.0"
 }
